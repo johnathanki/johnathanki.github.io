@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/sort"
+        android:title="@string/sort_options"
+        android:icon="@drawable/sort_24px"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/enable_sms"
+        android:title="@string/enable_sms"
+        android:icon="@drawable/sms_icon"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/logout"
+        android:title="@string/logout"
+        android:icon="@drawable/logout_icon"
+        app:showAsAction="ifRoom" />
+</menu>

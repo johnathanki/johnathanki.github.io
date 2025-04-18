@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_even">#f2f3f5</color>
+    <color name="bg_odd">#dedeff</color>
+    <color name="colorPrimary">#dedeff</color>
+    <color name="colorAccent">#9391ff</color>
+    <color name="colorPrimaryDark">#302ea6</color>
+    <color name="colorAccentDark">#9391ff</color>
+    <color name="almost_black">#272727</color>
+    <color name="something_wrong">#fe7070</color>
+    <color name="colorDisabled">#979ea8</color>
+</resources>

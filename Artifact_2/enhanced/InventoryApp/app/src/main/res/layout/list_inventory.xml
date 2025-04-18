@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="7"
+    android:rowCount="3">
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:text="@string/itemName"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/itemPrice"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="bottom"
+        android:text="@string/itemPrice"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/itemStock"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_gravity="bottom"
+        android:text="@string/itemStock"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/reduceStock"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:backgroundTint="@color/button_tint"
+        android:background="@drawable/minus_box_outline"
+        android:contentDescription="@string/reduce_stock_by_one" />
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:layout_row="1"
+        android:layout_column="3"/>
+
+    <Button
+        android:id="@+id/increaseStock"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_row="1"
+        android:layout_column="4"
+        android:backgroundTint="@color/button_tint"
+        android:background="@drawable/plus_box_outline"
+        android:contentDescription="@string/increase_stock_by_one"/>
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:layout_row="1"
+        android:layout_column="5"/>
+
+    <Button
+        android:id="@+id/deleteItem"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_row="1"
+        android:layout_column="6"
+        android:backgroundTint="@color/button_tint"
+        android:background="@drawable/delete_outline"
+        android:contentDescription="@string/delete_item"/>
+
+</GridLayout>

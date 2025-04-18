@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/new_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColorHint="@color/almost_black"
+        android:textColor="@color/black"
+        android:hint="@string/item_name"
+        android:inputType="textAutoCorrect" />
+    <TextView
+        android:id="@+id/item_name_error"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textColor="@color/design_default_color_error"
+        android:visibility="invisible"/>
+    <EditText
+        android:id="@+id/new_item_desc"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColorHint="@color/almost_black"
+        android:textColor="@color/black"
+        android:hint="@string/item_description"
+        android:inputType="textAutoCorrect" />
+    <TextView
+        android:id="@+id/item_desc_error"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textColor="@color/design_default_color_error"
+        android:visibility="invisible"/>
+    <EditText
+        android:id="@+id/new_item_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColorHint="@color/almost_black"
+        android:textColor="@color/black"
+        android:hint="@string/current_stock"
+        android:inputType="number" />
+    <TextView
+        android:id="@+id/item_quantity_error"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textColor="@color/design_default_color_error"
+        android:visibility="invisible"/>
+    <EditText
+        android:id="@+id/new_item_price"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColorHint="@color/almost_black"
+        android:textColor="@color/black"
+        android:hint="@string/item_price"
+        android:inputType="numberDecimal" />
+    <TextView
+        android:id="@+id/item_price_error"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textColor="@color/design_default_color_error"
+        android:visibility="invisible"/>
+    <EditText
+        android:id="@+id/new_item_sku"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColorHint="@color/almost_black"
+        android:textColor="@color/black"
+        android:hint="@string/item_sku"
+        android:inputType="text" />
+    <TextView
+        android:id="@+id/item_sku_error"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textColor="@color/design_default_color_error"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:paddingBottom="20dp"
+        android:orientation="horizontal"
+        android:padding="18dp">
+        <Button
+            android:id="@+id/confirm_add_item"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:text="@string/confirm"
+            android:backgroundTint="@color/button_tint"
+            android:layout_weight="1"
+            android:layout_marginEnd="18dp"
+            android:enabled="false"/>
+        <Button
+            android:id="@+id/cancel_add_item"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:text="@string/cancel"
+            android:backgroundTint="@color/button_tint"
+            android:layout_weight="1"
+            android:enabled="true"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
