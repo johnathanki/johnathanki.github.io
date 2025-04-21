@@ -17,8 +17,8 @@ The Android app is contained within `Inventory-app-master/` directory. There are
 - Android SDK (28 or higher)
 
 
-To view the enhanced version with algorithmic sorting of items see [Sorting Inventory Management App](https://github.com/johnathanki/johnathanki.github.io/blob/main/Artifact_2/enhanced/README.md)
+To view the enhanced version with algorithmic sorting of items see [Sorting Inventory Management App](https://github.com/johnathanki/johnathanki.github.io/blob/main/Artifact_2/enhanced/)
 
-To view the enhanced version of this project with API integration see [API Inventory Management App](https://github.com/johnathanki/johnathanki.github.io/blob/main/Artifact_3/enhanced/README.md)
+To view the enhanced version of this project with API integration see [API Inventory Management App](https://github.com/johnathanki/johnathanki.github.io/blob/main/Artifact_3/enhanced/)
 
 

@@ -16,4 +16,4 @@ This project is a standalone custom C++ hash table implementation. It was design
 - `CourseList.csv` comma delimited list of course information
 
 
-To view the enhanced version with algorithmic sorting of items see [Java Hash Table](https://github.com/johnathanki/johnathanki.github.io/blob/main/Artifact_1/enhanced/README.md)
+To view the enhanced version with algorithmic sorting of items see [Java Hash Table](https://github.com/johnathanki/johnathanki.github.io/blob/main/Artifact_1/enhanced/)

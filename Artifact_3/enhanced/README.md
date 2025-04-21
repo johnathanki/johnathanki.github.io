@@ -3,7 +3,7 @@ This enhanced version of the inventory management app significantly enhances the
 - MySQL database for persistent storage
 - Node.js/Express RESTful API with CRUD operations for users and inventory items
 - API calls within the App using Retrofit
-This version also incorporates the sorting options previously introduced in [The Algorithms and Data Structures Enhancement](https://github.com/johnathanki/johnathanki.github.io/blob/main/Artifact_3/enhanced/README.md)
+This version also incorporates the sorting options previously introduced in [The Algorithms and Data Structures Enhancement](https://github.com/johnathanki/johnathanki.github.io/blob/main/Artifact_3/enhanced/)
 
 
 ### Project Structure

@@ -1,6 +1,6 @@
 # Java Hash Table
 This project consists of two in two phase:
-1. A Java implementation of the [original C++ hash table](https://github.com/johnathanki/johnathanki.github.io/blob/main/Artifact_1/original/README.md).
+1. A Java implementation of the [original C++ hash table](https://github.com/johnathanki/johnathanki.github.io/blob/main/Artifact_1/original/).
 2. A performance benchmark comparing the custom implementation to Java’s built-in `Hashtable` class.
 
 

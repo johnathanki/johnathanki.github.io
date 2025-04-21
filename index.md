@@ -35,48 +35,52 @@ This brings us to our final concept; databases. Throughout the CS program I've b
 
 
 ## Enhancement One: Software Design and Engineering
-**About the artifact:**
+**About the artifact:**  
 This artifact is a C++ implementation of a hash table, which is a data structure that acts as a map for storing key-value pairs. A hash table stores data into buckets based off a hash function, which is advantageous when searching as only the bucket that holds the desired data needs to be searched, rather than searching the entire table. I wrote this program around two years ago, and it was more or less my first interaction with C++. This hash table implementation is used to store university courses, with each course having a prefix such as "MATH" or "CSCI", a course level such as 100 or 201, the name of the course, and a list of any prerequisites the course has.
 
-[Original C++ Hash Table repo](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_1/original)
-[Original C++ Hash Table README.md](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_1/original/README.md)
+[Original C++ Hash Table repo](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_1/original)  
+[Original C++ Hash Table README.md](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_1/original/README.md)  
 
+  
 
-**About the enhancement**
+**About the enhancement**  
 While this program perfectly fits the data structures and algorithms requirements the functionality required little tuning, so I instead decided to utilize it for the software design requirements. Since it was written while my comfort level with C++ was still growing, I assumed there were some design improvements that could be made. The final plan I landed on was porting the existing hash table structure to Java, while also creating an additional hash table structure using Java’s own HashTable implementation. This allowed me to showcase a deep understanding of both the Java programming language and various object-oriented programming (OOP) principles.
 
-[Java Hash Table repo](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_1/enhanced)
-[Java Hash Table README.md](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_1/enhanced/README.md)
-
-
+[Java Hash Table repo](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_1/enhanced)  
+[Java Hash Table README.md](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_1/enhanced/README.md)  
+  
+  
 
 
 ## Enhancement Two: Algorithms and Data Structures
-**About the artifact:**
+**About the artifact:**  
 This artifact is an Android application built with Java whose primary purpose is to manage the inventory/stock of a warehouse. It supports simple (local) account creation and uses a local database to hold item information and user accounts. The app uses a model-view-viewmodel (MVVM) architectural pattern to separate the UI logic from the database data. The database is handled via Room, a library for implementing SQLite in Android and currently houses two tables, Account and InventoryItem. The app itself consists of three Activities; login/account creation, adding new items, and browsing the list of all items.
 
-[Original Inventory App repo](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_2/original)
-[Original Inventory App README.md](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_2/original/README.md)
-
-
-**About the enhancement**
+[Original Inventory App repo](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_2/original)  
+[Original Inventory App README.md](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_2/original/README.md)  
+  
+  
+**About the enhancement**  
 The original implementation of the InventoryItem data structure was functional, but simple and lacking fields that it probably should’ve had such as a price and SKU. Additionally, the List that the database table populated was in an unspecified order and had no methods to sort the data by any meaningful metric. My plan was to remedy both by enhancing the data structure and implementing sorting algorithms so the user can choose a metric and direction to sort the List. Additionally, I wanted to clean up the existing code base and properly comment the code, two things I failed to do in the original due to time constraints.
 
-[Enhanced Inventory App repo](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_2/enhanced)
-[Enhanced Inventory App README.md](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_2/enhanced/README.md)
-
-
+[Enhanced Inventory App repo](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_2/enhanced)  
+[Enhanced Inventory App README.md](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_2/enhanced/README.md)  
+  
+  
 
 ## Enhancement Three: Databases
-**About the artifact:**
+**About the artifact:**  
 This artifact is an Android application built with Java whose primary purpose is to manage the inventory/stock of a warehouse. It supports simple (local) account creation and uses a local database to hold item information and user accounts. The app uses a model-view-viewmodel (MVVM) architectural pattern to separate the UI logic from the database data. The database is handled via Room, a library for implementing SQLite in Android and currently houses two tables, Account and InventoryItem. The app itself consists of three Activities; login/account creation, adding new items, and browsing the list of all items.
 
-[Original Inventory App repo](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_3/original)
-[Original Inventory App README.md](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_3/original/README.md)
-
-
-**About the enhancement**
+[Original Inventory App repo](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_3/original)  
+[Original Inventory App README.md](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_3/original/README.md)  
+  
+  
+**About the enhancement**  
 In the previous enhancement, the data structure of InventoryItem was altered to include more fields and sorting by those new fields was implemented. In this enhancement, the locally stored Room based SQLite database was replaced by a MySQL database controlled by a RESTful API constructed in Node.js/Express. To communicate with this new API, Entity classes (Account & InventoryItem) had their original annotations removed, the InventoryDatabase and DAO classes were removed entirely, and Retrofit was introduced to communicate with the API.
 
-[Enhanced Inventory App + API repo](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_3/enhanced)
-[Enhanced Inventory App + API README.md](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_3/enhanced/README.md)
+[Enhanced Inventory App + API repo](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_3/enhanced)  
+[Enhanced Inventory App + API README.md](https://github.com/johnathanki/johnathanki.github.io/tree/main/Artifact_3/enhanced/README.md)  
+  
+
+  
